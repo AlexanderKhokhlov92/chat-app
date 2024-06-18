@@ -1,8 +1,50 @@
-# React + Vite
+# Простое чат-приложение
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Простое чат-приложение, созданное с использованием React, с возможностью отправки сообщений.
 
-Currently, two official plugins are available:
+## Установка
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Необходимые инструменты
+
+- Node.js и npm (или Yarn), установленные на вашем компьютере.
+
+### Шаги
+
+1. Клонируйте репозиторий:
+
+    ```bash
+    git clone <URL-репозитория>
+    ```
+
+2. Перейдите в директорию проекта:
+
+    ```bash
+    cd chat-app
+    ```
+
+3. Установите зависимости:
+
+    ```bash
+    npm install
+    # или
+    yarn install
+    ```
+
+4. Запустите сервер разработки:
+
+    ```bash
+    npm run dev
+    # или
+    yarn dev
+    ```
+
+## Использование
+
+1. Откройте браузер и перейдите по адресу `http://localhost:3000`.
+2. Вы увидите интерфейс чат-приложения.
+3. Введите сообщение и нажмите кнопку "Send" для отправки сообщения.
+4. Используйте поле выбора файла для выбора файла (эту функцию можно расширить).
+
+## Возможности
+
+- **Отправка сообщений**: Введите сообщение и отправьте его в чат.
