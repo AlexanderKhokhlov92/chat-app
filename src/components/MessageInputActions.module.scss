@@ -1,0 +1,22 @@
+.sendButton {
+  appearance: none;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.actionsWrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsWrapper {
+  display: flex;
+}
